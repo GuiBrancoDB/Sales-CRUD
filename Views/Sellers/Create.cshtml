@@ -1,0 +1,36 @@
+@model WebApp.Models.View_Models.SellerFormViewModel
+
+
+<h2>Adicionar Vendedor</h2>
+<div class="form-group">
+    <form asp-action="Create">
+        <label asp-for="Seller.Name">Nome</label>
+        <input asp-for="Seller.Name" type="text" class="form-control" id="Name" aria-describedby="nameHelp" placeholder="Enter your name">
+        <span asp-validation-for="Seller.Name" class="text-danger"></span>
+        <br>
+        <label asp-for="Seller.Email">Email</label>
+        <input asp-for="Seller.Email" type="email" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="Enter email">
+        <span asp-validation-for="Seller.Email" class="text-danger"></span>
+        <br>
+        <label asp-for="Seller.BirthDate">Data de nacimento</label>
+        <input asp-for="Seller.BirthDate" type="date" class="form-control" id="BirthDate" aria-describedby="emailHelp" placeholder="Birth Date">
+        <span asp-validation-for="Seller.BirthDate" class="text-danger"></span>
+        <br>
+        <label asp-for="Seller.BaseSalary">Salario</label>
+        <input asp-for="Seller.BaseSalary" type="numeric" class="form-control" id="BaseSalary" aria-describedby="emailHelp" placeholder="Base Salary">
+        <span asp-validation-for="Seller.BaseSalary" class="text-danger"></span>
+        <div class="form-group">
+            <label asp-for="Seller.DepartmentId">Departamento</label>
+            <select class="form-control" asp-for="Seller.DepartmentId" asp-items="@(new SelectList(Model.Departments,"Id","Departamento"))"></select>
+        </div>
+        
+        <br>
+        <input type="submit" value="Criar" class="btn btn-success">
+        <input type="submit" value="Voltar" class="btn btn-info" asp-action="Index">
+    </form>
+</div>
+
+@section Scripts
+{
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
