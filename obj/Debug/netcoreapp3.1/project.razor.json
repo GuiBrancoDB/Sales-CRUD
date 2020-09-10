@@ -14397,6 +14397,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Records\\WebApp\\Views\\SalesRecords\\GroupingSearch.cshtml",
+      "TargetPath": "Views\\SalesRecords\\GroupingSearch.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Records\\WebApp\\Views\\Sellers\\Delete.cshtml",
       "TargetPath": "Views\\Sellers\\Delete.cshtml",
       "FileKind": "mvc"
@@ -14452,6 +14457,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Records\\WebApp\\Views\\SalesRecords\\Index.cshtml",
+      "TargetPath": "Views\\SalesRecords\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Records\\WebApp\\Views\\Sellers\\Edit.cshtml",
       "TargetPath": "Views\\Sellers\\Edit.cshtml",
       "FileKind": "mvc"
@@ -14464,6 +14474,11 @@
     {
       "FilePath": "c:\\Records\\WebApp\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Records\\WebApp\\Views\\SalesRecords\\SimpleSearch.cshtml",
+      "TargetPath": "Views\\SalesRecords\\SimpleSearch.cshtml",
       "FileKind": "mvc"
     },
     {

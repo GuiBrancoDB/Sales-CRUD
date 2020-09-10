@@ -367,3 +367,6 @@ C:\Records\WebApp\obj\Debug\netcoreapp3.1\staticwebassets\WebApp.StaticWebAssets
 C:\Records\WebApp\obj\Debug\netcoreapp3.1\staticwebassets\WebApp.StaticWebAssets.xml
 C:\Records\WebApp\obj\Debug\netcoreapp3.1\WebApp.genruntimeconfig.cache
 C:\Records\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Sellers\Details.cshtml.g.cs
+C:\Records\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\SalesRecords\Index.cshtml.g.cs
+C:\Records\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\SalesRecords\GroupingSearch.cshtml.g.cs
+C:\Records\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\SalesRecords\SimpleSearch.cshtml.g.cs

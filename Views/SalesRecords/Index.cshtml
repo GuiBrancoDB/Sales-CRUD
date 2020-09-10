@@ -1,0 +1,22 @@
+@model WebApp.Models.SalesRecord
+<h2>Busca Simples</h2>
+<div class="form-group">
+    <form asp-action="SimpleSearch">    
+        <strong><label for="minDate">Data de inicio</label></strong>
+        <input  for="minDate" type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <strong><label for="maxDate">Data de término</label></strong>
+        <input for="maxDate" type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <input type="submit" value="Buscar" class="btn btn-primary">
+    </form>
+</div>
+
+<h2>Busca Agrupada</h2>
+<div class="form-group">
+    <form asp-action="GroupingSearch">
+        <strong><label for="minDate">Data de inicio</label></strong>
+        <input for="minDate"type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <strong><label for="maxDate">Data de término</label></strong>
+        <input for="maxDate"type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <input type="submit" value="Buscar" class="btn btn-primary">
+    </form>
+</div>
