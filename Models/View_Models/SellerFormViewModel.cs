@@ -7,7 +7,6 @@ namespace WebApp.Models.View_Models
     {
         public Seller Seller { get; set; }
         public ICollection<Department> Departments { get; set; }
-
-        
+ 
     }
 }
